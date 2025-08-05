@@ -4,3 +4,5 @@ export const APP_DESCRIPTION =
   process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'Hub Ecommerce'
 
 export const APP_SLOGAN = process.env.NEXT_PUBLIC_APP_SLOGAN || 'Hub Ecommerce'
+
+export const PAGE_SIZE = Number(process.env.PAGE_SIZE || 9)
