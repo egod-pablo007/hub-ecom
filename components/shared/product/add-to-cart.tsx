@@ -63,7 +63,7 @@ export default function AddToCart({
         value={quantity.toString()}
         onValueChange={(i) => setQuantity(Number(i))}
       >
-        <SelectTrigger className="">
+        <SelectTrigger className="w-full">
           <SelectValue>Quantity: {quantity}</SelectValue>
         </SelectTrigger>
         <SelectContent position="popper">
